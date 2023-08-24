@@ -1,0 +1,39 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: blue;
+    text-align: center; 
+    }
+.grid-container{
+     display: grid;
+    grid-template-columns: auto auto;
+    background-color: blue;
+    text-align: center; 
+    }
+    .item{
+     grid-column: 1/ 4;
+    }
+    .grid-cont{
+        display: flex;
+        background: #adadad;
+        flex: 0 0 50px;
+        }
+.one{
+           display: flex;
+        background: #adadad;
+        flex: 0 0 100px
+          }
+.two{
+        display: flex;
+        background: #adadad;
+        flex: 0 0 50px
+          }
+.grid{
+        display: grid;
+        grid-template-columns: auto auto auto 100px;
+        grid-template-rows: 100px 300px;
+         grid-gap: 10px;
+        background-color: #2196F3;
+        padding: 10px;
+}
+        
